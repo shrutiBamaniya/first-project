@@ -1,0 +1,26 @@
+body { 
+	text-align:center;
+	font family:Arial;
+}
+
+#container {
+	widhth:90%;
+	height:350px;
+	margin:20px auto;
+        display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	border:1px solid black;
+}
+
+.bar {
+	width:40px;
+	margin:5px;
+	background-color:blue;
+	color:white;
+	transition:0.5s;
+	text-align:center;
+	display:flex;
+	align-items:flex-end;
+	justify-content:center;
+}
